@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(45deg, rgb(75, 82, 82),rgb(182, 182, 182));
+    color: white;
+    height: 100vh;
+}
+
+.lucao {
+    text-align: center;
+}
+
+.beluga {
+    transition: 8s;
+    border-radius: .5rem;    
+}
+
+.beluga:hover {
+    scale: 4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main.timer {
+    display: flex;
+    
+}
+
+main.timer div {
+    margin: 0.25rem;
+    padding: 1rem;
+    background-color: rgb(204, 204, 204);
+    border-radius: .5rem;
+    border: .2rem solid gray;
+}
+
+.start {
+    transition: .25s;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    color: white;
+    background-color: rgb(36, 107, 66);
+}
+
+.stop {
+    transition: .25s;
+    width: 5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    height: 5rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(124, 35, 35);
+}
+
+.stop:hover {
+    background: rgb(63, 17, 17);
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.start:hover {
+    width: 5.5rem;
+    height: 5.5rem;
+    background: rgb(30, 82, 52)
+}
