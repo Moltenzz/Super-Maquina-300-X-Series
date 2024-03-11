@@ -29,7 +29,7 @@ header {
     text-align: center;
 }
 
-.images {
+.beluga-images {
     display: flex;
 }
 
@@ -42,6 +42,7 @@ header {
 
 .beluga:hover {
     scale: 4;
+    border-radius: .25rem solid var(--white)
 }
 
 main.timer {
@@ -93,4 +94,19 @@ p.number {
     width: 5.5rem;
     height: 5.5rem;
     background: var(--greenDark)
+}
+
+.hiBeluga {
+    background: var(--grayLight);
+    border-radius: .5rem;
+    transition: .25s;
+    color: var(--white);
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.hiBeluga:hover {
+    background: var(--gray); 
+    width: 7.5rem;
+    height: 7.5rem;
 }

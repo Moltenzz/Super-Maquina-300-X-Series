@@ -61,3 +61,25 @@ function timeDisplay() {
     timeBox[1].innerHTML = `${hours}`
     timeBox[0].innerHTML = `${days}`    
 }
+
+// Número aleatório
+
+function game(){
+    let randonNumber = Math.floor(Math.random() * 10); 
+    console.log(randonNumber)
+    let yourChoice = '';
+    
+    while (yourChoice == '' || yourChoice == null) {
+        yourChoice = prompt('Escolha um número de 1 a 10')
+    }
+    
+    if (randonNumber == yourChoice) {
+        alert("Você é um guerreiro, parabéns!")
+    }
+    else {
+        alert(`Você perdeu! O número certo é ${randonNumber}`)
+    }
+}
+
+
+
